@@ -87,3 +87,9 @@ ul{
 .text-left{
     text-align: left;
 }
+.text-primary{
+    color: var(--primary);
+}
+.text-secondary{
+    color: #151875;
+}
