@@ -47,6 +47,26 @@ body{
 
 /*end header*/
 
+/* start newsettler */
+.newsettler{
+    background-image: url(./img/public/newsettlerimg.webp);
+    padding: 175px 0px;
+    text-align: center;
+}
+.newsettler h2{
+    margin-bottom: 50px;
+    color: #151875;
+    font-size: 35px;
+}
+.shop_btn{
+    transition: all 0.5s;
+}
+.shop_btn:hover{
+    background-color: #0D0E43;
+
+}
+/* end newsettler */
+
 /* start clients*/
 
 .clients{
