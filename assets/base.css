@@ -78,6 +78,9 @@ ul{
 .gap-6{
     gap: 30px;
 }
+.gap-50{
+    gap: 50px;
+}
 .text-center{
     text-align: center;
 }
@@ -92,4 +95,7 @@ ul{
 }
 .text-secondary{
     color: #151875;
+}
+.space-btw{
+    justify-content: space-between;
 }

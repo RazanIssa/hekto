@@ -112,7 +112,6 @@ body{
     top: -70px;
     left: 20px;
     visibility: hidden;
-    transition: all 0.6s;
     gap: 20px;
     cursor: pointer;
     
@@ -202,6 +201,92 @@ body{
 
 }
 /* end products */
+
+/* start leatest oroducts*/
+
+.leatest-products h2{
+    font-size: 42px;
+    padding-top: 50px;
+    color: #151875;
+}
+.leatest-products ul{
+    padding: 40px 0;
+    font-size: 18px;
+    color: #151875;
+}
+.options-list li:hover{
+    
+    color: red;
+    text-decoration: underline;
+}
+
+.card-img{
+    background-color: #F7F7F7;
+    padding: 35px 75px;
+    object-fit: fill;
+
+}
+.card-footer{
+    font-size: 12px;
+    color: #151875;
+    padding: 20px 10px;
+}
+.cards:hover .icons{
+    visibility: visible;
+}
+.cards{
+    
+    gap: 50px;
+    flex-wrap:wrap ;
+    padding: 50px 0;
+
+}
+
+
+.card-img img{
+    height: 320px;
+    object-fit: contain;
+
+}
+.card{
+    
+    position: relative;
+    width: calc((100% - 100px) / 3);
+    
+
+}
+
+ .icons-card{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    gap: 20px;
+    cursor: pointer;
+    visibility: hidden;
+    
+}
+.original-price{
+    color: red;
+    text-decoration: line-through;
+}
+
+
+.card:hover .icons-card{
+    visibility: visible;
+}
+
+@media screen and (max-width:1500px) {
+    .cards .card{
+        width: calc((100% - 50px ) / 2);
+    }
+}
+@media screen and (max-width:900px) {
+    .cards .card{
+        width: 100%;
+    }
+}
+
+/* end leatest oroducts*/
 
 
 /* start newsettler */
