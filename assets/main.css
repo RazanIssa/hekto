@@ -332,6 +332,62 @@ body{
   font-size: 16px;
 }
 
+/* trendy products start*/
+.TrendingProducts h2{
+    text-align: center;
+    font-size: 42px;
+    color: #151875;
+    padding: 50px 0;
+}
+.TrendingProducts{
+    padding: 50px;
+
+
+}
+.TrendingProducts .row{
+    justify-content: flex-start;
+    gap: 15px;
+}
+.TrendingProducts .trendy-product{
+    width: calc((100% - 45px) / 4);
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: content;
+    box-shadow: 0px 0px 8px #00000040;
+        
+}
+
+.trendy-img{
+    background-color: #F5F6F8;
+    text-align: center;
+}
+.trendy-img img{
+    height: 200px;
+}
+.trendy-text{
+    text-align: center;
+    padding: 20px;
+}
+.trendy-prices{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.trendy-text h3{
+    font-size: 16;
+    color: #151875;
+}
+.old-price{
+    color: grey;
+    text-decoration: line-through;
+}
+.new-price{
+    color: #151875;
+    
+}
+/* trendy products end*/
 
 
 /*end shopex*/
