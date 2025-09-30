@@ -467,7 +467,61 @@ body{
 
 /* end top catagories*/
 
+/* start leatest blog*/
 
+.Leatest-Blog h2{
+    text-align: center;
+    font-size:42px ;
+    color:#151875 ;
+    padding: 50px 0;
+}
+
+.Leatest-Blog{
+    padding: 50px;
+    
+
+}
+.Leatest-Blog .row{
+    justify-content: flex-start;
+}
+.Leatest-Blog .blog{
+    width: 70px;
+    flex-grow: 1;
+    flex-shrink: 0;    
+
+}
+
+.blog-names{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+
+.blog-info h3{
+    font-size: 22px;
+    color: #151875;
+    padding: 15px 0;
+}
+.blog-info p{
+    width: 370px;
+    padding: 15px 0;
+    color: #72718F;
+}
+.read-more{
+    text-decoration: underline;
+    color: #151875;
+}
+
+.blog:hover{
+    
+    .read-more,
+    .blog-info h3{
+        color: #FB2E86;
+    }
+}
+
+/* end leatest blog*/
 
 
 /* start newsettler */
