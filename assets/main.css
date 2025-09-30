@@ -298,29 +298,38 @@ body{
 /* end leatest oroducts*/
 
 /* start shpex*/
+.title{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 42px;
+    color: #151875;
+}
 .four-cards {
   display: flex;
-  justify-content: center; /* ✅ centers cards horizontally */
-  gap: 30px; /* spacing between cards */
-  flex-wrap: wrap; /* allows wrapping on smaller screens */
-  padding: 40px 0;
+  justify-content: center;
+  text-align: center;
+  gap: 30px; 
+  flex-wrap: wrap; 
+  padding: 50px 0;
 }
 
 .cardd {
-  text-align: center;
   max-width: 220px;
   padding: 20px;
 }
 
-.cardd.img img {
-  width: 60px;
-  height: 100px;
-  padding-bottom: 15px;
+.cardd img {
+  height: 50px;
+}
+.cardd h3{
+    font-size: 22px;
+    color: #151875;
+    padding: 10px;
 }
 
 .paragraph p {
   color: #999;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 
