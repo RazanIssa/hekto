@@ -483,9 +483,10 @@ body{
 }
 .Leatest-Blog .row{
     justify-content: flex-start;
+    gap: 15px;
 }
 .Leatest-Blog .blog{
-    width: 70px;
+    flex-basis: 400px;
     flex-grow: 1;
     flex-shrink: 0;    
 
